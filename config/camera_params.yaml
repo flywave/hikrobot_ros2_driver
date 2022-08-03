@@ -1,0 +1,27 @@
+/hikrobot_driver_node:
+  ros__parameters:
+    camera_name: hikrobot
+
+    width: 640
+    height: 480
+    offset_x: 0
+    offset_y: 0
+
+    frame_rate_enable: true
+    frame_rate: 25
+    burst_frame_count: 1
+
+    exposure_auto: 0
+    exposure_time: 1000.0
+
+    gamma_enable: false
+    gamma: 0.7
+
+    gain_auto: 2
+
+    saturation_enable: 0
+    saturation: 10
+
+    trigger_mode: 0
+    trigger_source: 2
+    line_selector: 2
